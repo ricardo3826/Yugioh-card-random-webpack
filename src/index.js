@@ -1,14 +1,13 @@
-import generateJoke from './generateJoke'   
+import generateCard from './generateCard'   
 import './styles/main.scss'
-import imgSmiling from './assets/SmilingFriendsTitleCard.png'
+//import imgSmiling from './assets/SmilingFriendsTitleCard.png'
 
 
-const imgS = document.getElementById('imgS')
-imgS.src=  imgSmiling
 
 
-const jokeBtn = document.getElementById('jokeBtn')
-jokeBtn.addEventListener('click', generateJoke)
+
+const CardBtn = document.getElementById('Cardbtn')
+CardBtn.addEventListener('click', generateCard)
 
 
-generateJoke()
+generateCard()
